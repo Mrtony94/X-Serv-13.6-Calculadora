@@ -35,6 +35,6 @@ def operaciones(num1, num2):
          return div(num1, num2)
     else:
       sys.exit("Argumento incorrecto, vuelva a intentarlo")
-      
+    
 comprobacion()
 operaciones(num1,num2)
