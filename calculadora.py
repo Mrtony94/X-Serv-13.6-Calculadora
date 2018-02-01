@@ -26,15 +26,15 @@ def div(num1,num2):
 
 def operaciones(num1, num2):
     if operacion == Function_P[0]:
-        return suma(num1, num2)
+    	return suma(num1, num2)
     elif operacion == Function_P[1]:
-         return resta(num1, num2)
+    	return resta(num1, num2)
     elif operacion == Function_P[2]:
-         return mult(num1, num2)
+    	return mult(num1, num2)
     elif operacion == Function_P[3]:
-         return div(num1, num2)
+    	return div(num1, num2)
     else:
-      sys.exit("Argumento incorrecto, vuelva a intentarlo")
+    	sys.exit("Argumento incorrecto, vuelva a intentarlo")
     
 comprobacion()
 operaciones(num1,num2)
